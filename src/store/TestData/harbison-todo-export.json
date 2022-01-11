@@ -1,0 +1,16 @@
+{
+  "tasks" : {
+    "id1" : {
+      "completed" : false,
+      "details" : "Some details",
+      "dueDate" : "2020/02/10",
+      "name" : "Go to store"
+    },
+    "id2" : {
+      "completed" : true,
+      "details" : "Some details",
+      "dueDate" : "2020/01/17",
+      "name" : "walk the dog"
+    }
+  }
+}

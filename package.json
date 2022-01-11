@@ -1,0 +1,36 @@
+{
+  "name": "quasar-todo",
+  "version": "0.1.0",
+  "description": "A Quasar Framework app",
+  "productName": "Quazar Todo",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Brian Leabold harbisonapps@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.8.2",
+    "firebase": "7.15.5",
+    "quasar": "^1.12.11"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.5",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
